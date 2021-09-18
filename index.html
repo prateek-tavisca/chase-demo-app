@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My bank app</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js" defer></script>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icon/c-logo.png" />
+    <link
+      href="https://orxe.qa.cnxloyalty.com/core/theme/default/css/mobile.css"
+    />
+    <link
+      href="https://orxe.qa.cnxloyalty.com/core/theme/default/grid/css/grid.css"
+    />
+    <link
+      href="https://orxe.qa.cnxloyalty.com/core/theme/default/css/custom-chase.css"
+    />
+    <style>
+      body {
+        background-color: #18447e;
+      }
+      img {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img src="images/home.png" alt="app home" usemap="#workmap"  onclick="gotoHome()" />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        id="image-map"
+        coords="319.6,163,399,243"
+        alt="my trip"
+        href="https://orxe.qa.cnxloyalty.com/mytrips?device_type=mobile&sid=7ddd6b2c-0948-46b1-ba47-eb1b9ba1d53c&tid=3e1go4ilxq8"
+      />
+    </map>
+
+    <script>
+      function gotoHome(){
+        window.location="https://orxe.qa.cnxloyalty.com/?device_type=mobile&sid=7ddd6b2c-0948-46b1-ba47-eb1b9ba1d53c&tid=3e1go4ilxq8"
+      }
+    </script>
+  </body>
+</html>

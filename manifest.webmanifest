@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "Chase",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "./icon/c-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Chase",
+  "short_name": "Chase",
+  "start_url": "/index.html"
+}
