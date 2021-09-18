@@ -4,7 +4,7 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "https://prateek-tavisca.github.io/chase-demo-app/icon/c-logo.png",
+      "src": "./icon/c-logo.png",
       "sizes": "192x192",
       "type": "image/png"
     }
